@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def gerador_de_identificadores(primeiro_nome, sobrenome, ano_nascimento):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(gerador_de_identificadores("Tina", "Smith", 1990))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert gerador_de_identificadores("Tina", "Smith", 1990) == "tina-smith-1990"
+assert gerador_de_identificadores("Alice", "Johnson", 1985) == "alice-johnson-1985"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

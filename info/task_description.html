@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Prática:</strong> Reforce o conhecimento adquirido. Aplique as técnicas aprendidas e repita os exercícios até se sentir confiante.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Tina, desenvolvedora de um grande sistema de gerenciamento de conteúdo, precisa criar identificadores únicos para cada novo usuário que se registra. Crie uma função que combine o primeiro nome, o sobrenome e o ano de nascimento do usuário para formar um identificador único. O identificador deve ser todo em letras minúsculas e as partes devem ser separadas por um hífen.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Duas strings, primeiro_nome, sobrenome e um inteiro, ano_nascimento.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string representando o identificador único.
 </p>
 
 
@@ -32,11 +32,13 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    gerador_de_identificadores("Tina", "Smith", 1990) >> "tina-smith-1990"
+gerador_de_identificadores("Alice", "Johnson", 1985) >> "alice-johnson-1985"
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Manipulação de Strings</li>
+
 </ul>
